@@ -53,7 +53,7 @@ function check()
     console.log("answer in lower case - " + answer);
     if(answer == word)
     {
-        if(answer == "player1")
+        if(answer_turn == "player1")
         {
             player1_score = player1_score + 1;
             document.getElementById("player1_score").innerHTML = player1_score;
